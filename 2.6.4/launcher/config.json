@@ -28,5 +28,37 @@
       "url": "https://raw.githubusercontent.com/AnotherGuy01/LegacyVersions/main/2.6.4/launcher/backgrounds/dwight.png",
       "file": "dwight.png"
     }
+  ],
+  "cool_guys": [
+    {
+      "name": "Bezdarnost",
+      "avatar_icon": "bezdarnost.png",
+      "socials": [
+        {
+          "name": "GitHub",
+          "icon": "github.svg",
+          "link": "https://github.com/Bezdarnost01"
+        }
+      ],
+      "description": {
+        "ru": "Главный разработчик",
+        "en": "Head Developer"
+      }
+    },
+    {
+      "name": "Roblox Enjoyer",
+      "avatar_icon": "roblox_enjoyer.png",
+      "socials": [
+        {
+          "name": "GitHub",
+          "icon": "github.svg",
+          "link": "https://github.com/NyanAlex"
+        }
+      ],
+      "description": {
+        "ru": "Разработчик",
+        "en": "Developer"
+      }
+    },
   ]
 }

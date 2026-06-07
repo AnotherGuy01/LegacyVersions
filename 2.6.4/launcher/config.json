@@ -5,27 +5,27 @@
     "backgrounds": [
     {
       "name": "nea",
-      "url": "https://raw.githubusercontent.com/Bezdarnost01/NewLauncher/main/assets/remote/backgrounds/nea.png",
+      "url": "https://raw.githubusercontent.com/AnotherGuy01/LegacyVersions/main/2.6.4/launcher/backgrounds/nea.png",
       "file": "nea.png"
     },
     {
       "name": "ace",
-      "url": "https://raw.githubusercontent.com/Bezdarnost01/NewLauncher/main/assets/remote/backgrounds/ace.png",
+      "url": "https://raw.githubusercontent.com/AnotherGuy01/LegacyVersions/main/2.6.4/launcher/backgrounds/ace.png",
       "file": "ace.png"
     },
     {
       "name": "feng",
-      "url": "https://raw.githubusercontent.com/Bezdarnost01/NewLauncher/main/assets/remote/backgrounds/feng.png",
+      "url": "https://raw.githubusercontent.com/AnotherGuy01/LegacyVersions/main/2.6.4/launcher/backgrounds/feng.png",
       "file": "feng.png"
     },
     {
       "name": "jake",
-      "url": "https://raw.githubusercontent.com/Bezdarnost01/NewLauncher/main/assets/remote/backgrounds/jake.png",
+      "url": "https://raw.githubusercontent.com/AnotherGuy01/LegacyVersions/main/2.6.4/launcher/backgrounds/jake.png",
       "file": "jake.png"
     },
     {
       "name": "dwight",
-      "url": "https://raw.githubusercontent.com/Bezdarnost01/NewLauncher/main/assets/remote/backgrounds/dwight.png",
+      "url": "https://raw.githubusercontent.com/AnotherGuy01/LegacyVersions/main/2.6.4/launcher/backgrounds/dwight.png",
       "file": "dwight.png"
     }
   ]

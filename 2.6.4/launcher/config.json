@@ -1,8 +1,29 @@
 {
-    "version": "2.6.4",
-    "last_update_date": "21.05.2026",
-    "steam_appid": 22010,
-    "backgrounds": [
+  "version": "2.6.4",
+  "last_update_date": "21.05.2026",
+  "steam_appid": 22010,
+  "discord_rpc": {
+    "application_id": "1513549482401464471",
+    "details": "Dead By Daylight 2.6.4",
+    "state": "In Dead By Daylight 2.6.4",
+    "large_image": "",
+    "large_text": "",
+    "small_image": "",
+    "small_text": "",
+    "buttons": [
+      {
+        "id": "discord",
+        "text": "DBDLegacy",
+        "url": "https://discord.gg/AjBSXDYKhY"
+      },
+      {
+        "id": "discord2",
+        "text": "CrackByDaylight",
+        "url": "https://discord.gg/5825R8XDZw"
+      }
+    ]
+  },
+  "backgrounds": [
     {
       "name": "nea",
       "url": "https://raw.githubusercontent.com/AnotherGuy01/LegacyVersions/main/2.6.4/launcher/backgrounds/nea.png",
@@ -59,6 +80,6 @@
         "ru": "Разработчик",
         "en": "Developer"
       }
-    },
+    }
   ]
 }

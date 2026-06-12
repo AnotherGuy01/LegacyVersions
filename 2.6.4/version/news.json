@@ -1,0 +1,19 @@
+{
+  "news": [
+    {
+      "contentTags": [
+        "steam"
+      ],
+      "description": "<p>This version of Dead by Daylight was brought to you by DBD Legacy Team!</p><p>Funded by:</p><ul><li>P E R K A G 0 D</li></ul><p>Credits:</p><ul><li>NyanAlex1</li><li>Bezdarnost</li><li>The Shape</li></ul><p>Also we would like to thank our testers!</p><ul><li>Evgen4ik47</li><li>Reducelover</li><li>Akira Tired</li><li>CheeseWOW</li><li>kилаузер03</li><li>Валерий Жмышенко</li><li>Hauhlaund</li></ul>",
+      "dwnImagePath": "",
+      "imageHeight": "",
+      "imagePath": "UI/Icons/NewContentSplash/splashBanner_Anniversary.png",
+      "isHidden": false,
+      "startDate": "2026-01-15T00:00:00",
+      "title": "2.6.4 | DEV UPDATES",
+      "type": 4,
+      "version": "2.6.4",
+      "weight": 3087.0
+    }
+  ]
+}

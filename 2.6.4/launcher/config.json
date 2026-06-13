@@ -80,6 +80,26 @@
         "ru": "Разработчик",
         "en": "Developer"
       }
+    },
+    {
+      "name": "Mr.Wawe",
+      "avatar_icon": "mr_wawe.svg",
+      "socials": [
+        {
+          "name": "YouTube",
+          "icon": "youtube.svg",
+          "link": "https://www.youtube.com/@pudra_dbd"
+        },
+        {
+          "name": "Twitch",
+          "icon": "twitch.svg",
+          "link": "https://twitch.tv/Ohlin91"
+        }
+      ],
+      "description": {
+        "ru": "Разработчик",
+        "en": "Developer"
+      }
     }
   ]
 }

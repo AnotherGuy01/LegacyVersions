@@ -67,6 +67,21 @@
       }
     },
     {
+      "name": "PERKAGOD",
+      "avatar_icon": "perka.svg",
+      "socials": [
+        {
+          "name": "Twitch",
+          "icon": "twitch.svg",
+          "link": "https://m.twitch.tv/perkag0d2"
+        }
+      ],
+      "description": {
+        "ru": "Спонсор",
+        "en": "Sponsor"
+      }
+    },
+    {
       "name": "Roblox Enjoyer",
       "avatar_icon": "roblox_enjoyer.svg",
       "socials": [

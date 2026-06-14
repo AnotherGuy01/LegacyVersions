@@ -59,6 +59,11 @@
           "name": "GitHub",
           "icon": "github.svg",
           "link": "https://github.com/Bezdarnost01"
+        },
+        {
+          "name": "Boosty",
+          "icon": "boosty.svg",
+          "link": "https://boosty.to/fucking_jack"
         }
       ],
       "description": {

@@ -1,4 +1,9 @@
 {
-	"steam_fix_version": "1.0.0",
-	"server_fix_version": "1.0.0"
+	"progression": {
+	    "keyId": "v1",
+	    "encryptionKey": "bG9jYWxtb250aHBsZWFzdXJlZGk=",
+	    "rankSeasonAnchorUtc": "2026-07-01T00:00:00Z",
+	    "rankResetIntervalMonths": 1,
+	    "levelVersion": 34
+	  }
 }

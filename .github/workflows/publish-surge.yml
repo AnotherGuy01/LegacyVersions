@@ -1,0 +1,37 @@
+name: Publish cloud mirror
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloud-mirror-main
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build and validate mirror
+        run: python3 scripts/build_mirror.py
+      - name: Publish to Surge
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+        run: |
+          test -n "$SURGE_LOGIN" || { echo 'SURGE_LOGIN secret is missing'; exit 1; }
+          test -n "$SURGE_TOKEN" || { echo 'SURGE_TOKEN secret is missing'; exit 1; }
+          npx --yes surge@0.44.4 ./dist legacyversions.surge.sh
+      - name: Verify published commit
+        run: |
+          curl --fail --silent --show-error --retry 5 --retry-delay 2 \
+            https://legacyversions.surge.sh/mirror-status.json \
+            | python3 -c 'import json,os,sys; actual=json.load(sys.stdin)["commit"]; expected=os.environ["GITHUB_SHA"]; print("MIRROR_COMMIT="+actual); sys.exit(actual != expected)'

@@ -20,9 +20,9 @@
         },
         {
             "eventId": "Halloween2018",
-            "startTime": "2026-10-14T00:00:00+03:00",
-            "mainEndTime": "2026-10-31T23:59:59+03:00",
-            "postEndTime": "2026-10-31T23:59:59+03:00"
+            "startTime": "2016-10-14T00:00:00+03:00",
+            "mainEndTime": "2016-10-31T23:59:59+03:00",
+            "postEndTime": "2016-10-31T23:59:59+03:00"
         },
         {
             "eventId": "Winter2018",
